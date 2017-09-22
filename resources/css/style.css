@@ -1,0 +1,227 @@
+html {
+  font-size: 14px;
+  font-family: "Open Sans";
+}
+
+/*********************************************/
+/* Navigation Bar */
+.navbar-default .navbar-nav .active a:hover {
+  /*background-color: black;*/
+}
+
+.navbar-default .navbar-nav a {
+ font-family: "Open Sans";
+ font-size: 1.1rem;
+ font-weight: bold;
+}
+
+.navbar-default .navbar-nav .active a {
+ color: #399bd1;
+}
+
+@media only screen and (max-width: 768px) {
+  nav img {
+    display: none;
+  }
+}
+
+/*********************************************/
+/* Jumbotron */
+.jumbotron-bike {
+  padding-top: 11.85rem;
+  padding-bottom: 11.85rem;
+  background-image: url("../images/jumbotron-bike.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+
+.jumbotron-beer {
+  padding-top: 11.85rem;
+  padding-bottom: 11.85rem;
+  background-image: url("../images/jumbotron-beer.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+
+.jumbotron-duffel {
+  padding-top: 11.85rem;
+  padding-bottom: 11.85rem;
+  background-image: url("../images/jumbotron-duffel.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+
+.jumbotron-flowers {
+  padding-top: 11.85rem;
+  padding-bottom: 11.85rem;
+  background-image: url("../images/jumbotron-flowers.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+
+.jumbotron p {
+  text-shadow: 1px 1px #000000;
+  color: white;
+  /*display: flex;
+  justify-content: center;*/
+  /*width: 51.3rem;*/
+  text-align: center;
+  margin: 0px auto;
+  padding-bottom: 2.8rem;
+}
+
+.jumbotron  h1 {
+  text-align: center;
+  font-family: Monoton;
+  font-size: 7.1rem;
+  color: white;
+  text-shadow: -1px -1px 0 #000,
+               -1px -1px 0 #000,
+               -1px -1px 0 #000,
+               -1px -1px 0 #000;
+}
+
+/*********************************************/
+/* Featured Project */
+.container {
+  padding-right: 15px;
+  padding-left: -15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.container-title {
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #399bd1;
+}
+
+.image-container img {
+  transition: transform .5s, opacity .5s;
+  opacity: 0.7;
+  width:100%
+}
+
+.image-container {
+  overflow: hidden;
+}
+
+.image-container img:hover {
+  opacity: 1;
+  transform: scale(1.3);
+}
+
+/*img {
+  width: 100%%
+  vertical-align: middle;
+}*/
+
+.title {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.title-product-categories {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #399bd1;
+}
+
+.col-md-3 ul {
+  list-style-type: none;
+}
+
+.col-md-3 ul li {
+  line-height: 1.4;
+  color: rgba(0,0,0,0.7);
+  position: relative;
+  right: 40px;
+}
+@media only screen and (max-width: 1000px) {
+  .col-xs-6 {
+    padding-top: 20px;
+  }
+}
+
+/*********************************************/
+/* Projects */
+.project .title {
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding-top: 60px;
+}
+
+.project .image-container {
+  height: 13.5rem;
+}
+
+.container  .row .project{
+  padding-bottom: 5.85rem;
+}
+
+@media only screen and (max-width: 1224px) {
+  .project .title {
+    padding-top: 10px;
+  }
+}
+;
+@media only screen and (max-width: 800px) {
+  .project .title {
+    padding-top: -10px;
+  }
+}
+
+/*********************************************/
+/* Having Trouble */
+.trouble {
+  background-color: #f3f3f3;
+  padding-top: 5.2rem;
+  padding-bottom: 5.2rem;
+  text-align: center;
+}
+
+.btn:hover {
+  box-shadow: 0 0 12px rgba(0,0,0,0.9);
+}
+
+.btn:active {
+  box-shadow: 0 0 0 rgba(0,0,0,0.5);
+}
+
+.btn {
+  box-shadow: 0 0 3px rgba(0,0,0,0.5);
+  background-color: #399bd1;
+  font-family: "Open Sans"
+  width: 11.4rem;
+  padding-top:1.3rem;
+  padding-bottom: 1.3rem;
+  padding-left:1.3rem;
+  padding-right: 1.3rem;
+  align-items: center;
+}
+
+.trouble-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 0px auto;
+
+}
+.trouble p {
+  /*padding-top: 1.4rem;*/
+  width: 42rem;
+  margin: 0px auto;
+  padding-bottom: 2.8rem;
+}
